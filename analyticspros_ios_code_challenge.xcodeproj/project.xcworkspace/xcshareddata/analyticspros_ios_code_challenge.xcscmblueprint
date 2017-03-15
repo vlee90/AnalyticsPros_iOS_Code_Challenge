@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "12AB70A77F0975C5C146CFD10CC651BB16B5B8ED",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "13D7E563240AC02905AEDD38CD38704815403CA2" : 9223372036854775807,
+    "12AB70A77F0975C5C146CFD10CC651BB16B5B8ED" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "12160F5B-BBB6-4382-A5F3-C84E36392B6E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "13D7E563240AC02905AEDD38CD38704815403CA2" : "",
+    "12AB70A77F0975C5C146CFD10CC651BB16B5B8ED" : "analyticspros_ios_code_challenge\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "analyticspros_ios_code_challenge",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "analyticspros_ios_code_challenge.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:vlee90\/AnalyticsPros_iOS_Code_Challenge.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12AB70A77F0975C5C146CFD10CC651BB16B5B8ED"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:vlee90\/AnalyticsPros_iOS_Code_Challenge.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "13D7E563240AC02905AEDD38CD38704815403CA2"
+    }
+  ]
+}

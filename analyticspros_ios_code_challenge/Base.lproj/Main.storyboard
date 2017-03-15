@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Favorite Color" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CgT-zO-RGq">
+                                <rect key="frame" x="87.5" y="30" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="uXg-tq-bwJ"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3w3-ZD-5Sj">
+                                <rect key="frame" x="142.5" y="80" width="90" height="30"/>
+                                <state key="normal" title="Submit Color"/>
+                                <connections>
+                                    <action selector="submitColorButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GBx-oe-Jjc"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="s9D-aN-3fE">
+                                <rect key="frame" x="149.5" y="135" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="7IJ-qF-pZv"/>
+                                    <constraint firstAttribute="height" constant="75" id="VZA-Lp-b4Q"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHp-vb-1yD">
+                                <rect key="frame" x="152" y="230" width="70" height="30"/>
+                                <state key="normal" title="Buy Apple"/>
+                                <connections>
+                                    <action selector="buyAppleButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yWK-5q-VN1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zHp-vb-1yD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AEI-8x-11r"/>
+                            <constraint firstItem="CgT-zO-RGq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="NCy-Oi-zmh"/>
+                            <constraint firstItem="zHp-vb-1yD" firstAttribute="top" secondItem="s9D-aN-3fE" secondAttribute="bottom" constant="20" id="XgV-WL-4Yj"/>
+                            <constraint firstItem="s9D-aN-3fE" firstAttribute="top" secondItem="3w3-ZD-5Sj" secondAttribute="bottom" constant="25" id="eJ6-v0-Jb4"/>
+                            <constraint firstItem="s9D-aN-3fE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gEA-xa-y1P"/>
+                            <constraint firstItem="3w3-ZD-5Sj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gYS-RO-MOe"/>
+                            <constraint firstItem="CgT-zO-RGq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kSr-0H-tJl"/>
+                            <constraint firstItem="3w3-ZD-5Sj" firstAttribute="top" secondItem="CgT-zO-RGq" secondAttribute="bottom" constant="20" id="uRD-eb-Aye"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="appleImageView" destination="s9D-aN-3fE" id="6ci-gy-y1p"/>
+                        <outlet property="buyAppleButton" destination="zHp-vb-1yD" id="4CW-0J-iXw"/>
+                        <outlet property="favoriteColorTextField" destination="CgT-zO-RGq" id="r67-IW-6Qh"/>
+                        <outlet property="submitColorButton" destination="3w3-ZD-5Sj" id="pnu-tO-1Ve"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="apple" width="16" height="16"/>
+    </resources>
+</document>
