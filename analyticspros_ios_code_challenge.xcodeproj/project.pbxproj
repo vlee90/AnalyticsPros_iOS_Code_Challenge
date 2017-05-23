@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00F45DE21ED3F15100399061 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DE01ED3F15100399061 /* libGoogleAnalyticsServices.a */; };
+		00F45DE31ED3F15100399061 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DE11ED3F15100399061 /* libAdIdAccess.a */; };
+		00F45DEB1ED3F19A00399061 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DEA1ED3F19A00399061 /* CoreData.framework */; };
+		00F45DED1ED3F1A000399061 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DEC1ED3F1A000399061 /* SystemConfiguration.framework */; };
+		00F45DEF1ED3F1AD00399061 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DEE1ED3F1AD00399061 /* libz.tbd */; };
+		00F45DF11ED3F1B800399061 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DF01ED3F1B800399061 /* libsqlite3.tbd */; };
+		00F45DF51ED3F6C500399061 /* GTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F45DF41ED3F6C500399061 /* GTManager.m */; };
+		00F45E061ED4097500399061 /* GTM-5W8QQ63.json in Resources */ = {isa = PBXBuildFile; fileRef = 00F45E051ED4097500399061 /* GTM-5W8QQ63.json */; };
+		00F45E0B1ED4BD8500399061 /* GTM-5W8QQ63 in Resources */ = {isa = PBXBuildFile; fileRef = 00F45E0A1ED4BD8500399061 /* GTM-5W8QQ63 */; };
 		637F878A1E78A5DB0016615B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 637F87891E78A5DB0016615B /* main.m */; };
 		637F878D1E78A5DB0016615B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637F878C1E78A5DB0016615B /* AppDelegate.m */; };
 		637F87901E78A5DB0016615B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637F878F1E78A5DB0016615B /* ViewController.m */; };
@@ -17,6 +26,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00F45DE01ED3F15100399061 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		00F45DE11ED3F15100399061 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
+		00F45DE41ED3F16E00399061 /* TAGContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
+		00F45DE51ED3F16E00399061 /* TAGContainerOpener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
+		00F45DE61ED3F16E00399061 /* TAGDataLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
+		00F45DE71ED3F16E00399061 /* TAGLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGLogger.h; sourceTree = "<group>"; };
+		00F45DE81ED3F16E00399061 /* TAGManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
+		00F45DEA1ED3F19A00399061 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		00F45DEC1ED3F1A000399061 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		00F45DEE1ED3F1AD00399061 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		00F45DF01ED3F1B800399061 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		00F45DF31ED3F6C500399061 /* GTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTManager.h; path = Vendor/GA/GTManager/GTManager.h; sourceTree = "<group>"; };
+		00F45DF41ED3F6C500399061 /* GTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTManager.m; path = Vendor/GA/GTManager/GTManager.m; sourceTree = "<group>"; };
+		00F45E051ED4097500399061 /* GTM-5W8QQ63.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "GTM-5W8QQ63.json"; sourceTree = "<group>"; };
+		00F45E0A1ED4BD8500399061 /* GTM-5W8QQ63 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTM-5W8QQ63"; sourceTree = "<group>"; };
 		637F87851E78A5DB0016615B /* analyticspros_ios_code_challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = analyticspros_ios_code_challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		637F87891E78A5DB0016615B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		637F878B1E78A5DB0016615B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,17 +60,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F45DF11ED3F1B800399061 /* libsqlite3.tbd in Frameworks */,
+				00F45DEF1ED3F1AD00399061 /* libz.tbd in Frameworks */,
+				00F45DED1ED3F1A000399061 /* SystemConfiguration.framework in Frameworks */,
+				00F45DEB1ED3F19A00399061 /* CoreData.framework in Frameworks */,
+				00F45DE21ED3F15100399061 /* libGoogleAnalyticsServices.a in Frameworks */,
+				00F45DE31ED3F15100399061 /* libAdIdAccess.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00F45DDD1ED3F11D00399061 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				00F45DF61ED3F90000399061 /* GTM */,
+				00F45DDE1ED3F12800399061 /* GA */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		00F45DDE1ED3F12800399061 /* GA */ = {
+			isa = PBXGroup;
+			children = (
+				00F45DE41ED3F16E00399061 /* TAGContainer.h */,
+				00F45DE51ED3F16E00399061 /* TAGContainerOpener.h */,
+				00F45DE61ED3F16E00399061 /* TAGDataLayer.h */,
+				00F45DE71ED3F16E00399061 /* TAGLogger.h */,
+				00F45DE81ED3F16E00399061 /* TAGManager.h */,
+			);
+			name = GA;
+			sourceTree = "<group>";
+		};
+		00F45DDF1ED3F14500399061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00F45DE01ED3F15100399061 /* libGoogleAnalyticsServices.a */,
+				00F45DE11ED3F15100399061 /* libAdIdAccess.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00F45DE91ED3F19900399061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00F45DF01ED3F1B800399061 /* libsqlite3.tbd */,
+				00F45DEE1ED3F1AD00399061 /* libz.tbd */,
+				00F45DEC1ED3F1A000399061 /* SystemConfiguration.framework */,
+				00F45DEA1ED3F19A00399061 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00F45DF61ED3F90000399061 /* GTM */ = {
+			isa = PBXGroup;
+			children = (
+				00F45DF31ED3F6C500399061 /* GTManager.h */,
+				00F45DF41ED3F6C500399061 /* GTManager.m */,
+			);
+			name = GTM;
+			sourceTree = "<group>";
+		};
 		637F877C1E78A5DB0016615B = {
 			isa = PBXGroup;
 			children = (
 				637F87871E78A5DB0016615B /* analyticspros_ios_code_challenge */,
 				637F87861E78A5DB0016615B /* Products */,
+				00F45DE91ED3F19900399061 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +142,8 @@
 		637F87871E78A5DB0016615B /* analyticspros_ios_code_challenge */ = {
 			isa = PBXGroup;
 			children = (
+				00F45DDF1ED3F14500399061 /* Frameworks */,
+				00F45DDD1ED3F11D00399061 /* Vendor */,
 				637F878B1E78A5DB0016615B /* AppDelegate.h */,
 				637F878C1E78A5DB0016615B /* AppDelegate.m */,
 				637F878E1E78A5DB0016615B /* ViewController.h */,
@@ -79,6 +162,8 @@
 		637F87881E78A5DB0016615B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00F45E0A1ED4BD8500399061 /* GTM-5W8QQ63 */,
+				00F45E051ED4097500399061 /* GTM-5W8QQ63.json */,
 				637F87891E78A5DB0016615B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -115,8 +200,12 @@
 				TargetAttributes = {
 					637F87841E78A5DB0016615B = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = GBG956P6A4;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -143,8 +232,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F45E061ED4097500399061 /* GTM-5W8QQ63.json in Resources */,
 				637F87981E78A5DB0016615B /* LaunchScreen.storyboard in Resources */,
 				637F87951E78A5DB0016615B /* Assets.xcassets in Resources */,
+				00F45E0B1ED4BD8500399061 /* GTM-5W8QQ63 in Resources */,
 				637F87931E78A5DB0016615B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				637F87901E78A5DB0016615B /* ViewController.m in Sources */,
+				00F45DF51ED3F6C500399061 /* GTManager.m in Sources */,
 				637F87A11E78AE5F0016615B /* Product.m in Sources */,
 				637F878D1E78A5DB0016615B /* AppDelegate.m in Sources */,
 				637F878A1E78A5DB0016615B /* main.m in Sources */,
@@ -279,11 +371,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GBG956P6A4;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/analyticspros_ios_code_challenge",
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = analyticspros_ios_code_challenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/analyticspros_ios_code_challenge",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vincent.lee.analyticspros.ios.codechallenge.analyticspros-ios-code-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -291,11 +395,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GBG956P6A4;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/analyticspros_ios_code_challenge",
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = analyticspros_ios_code_challenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/analyticspros_ios_code_challenge",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vincent.lee.analyticspros.ios.codechallenge.analyticspros-ios-code-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -318,6 +434,7 @@
 				637F879E1E78A5DB0016615B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
