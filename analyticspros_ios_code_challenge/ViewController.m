@@ -41,7 +41,7 @@
 - (IBAction)submitColorButtonPressed:(id)sender {
     NSString *favoriteColor = [NSString stringWithFormat:@"%@", _favoriteColorTextField.text];
     if (favoriteColor && ![favoriteColor isEqual:[NSNull null]]) {
-        [[GTManager sharedInstance] trackColorEvent:favoriteColor];
+        [[GTManager sharedInstance] trackColorEvent:favoriteColor fromSender:@"detail_screen"];
     }
 }
 
