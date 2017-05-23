@@ -58,9 +58,10 @@
                                @"screenName" : screen}];
 }
 
-- (void)trackColorEvent:(NSString *)event {
-    [_manager.dataLayer push:@{@"event:" : @"favorite_color",
-                               @"color " : event}];
+- (void)trackColorEvent:(NSString *)color fromSender:(NSString *)sender {
+    [_manager.dataLayer push:@{@"event" : @"favorite_color",
+                               @"favorite_color" : color,
+                               @"screenName": sender}];
 }
 
 - (void)trackPurchase:(Product *)product withQuantity:(NSUInteger)quantity {

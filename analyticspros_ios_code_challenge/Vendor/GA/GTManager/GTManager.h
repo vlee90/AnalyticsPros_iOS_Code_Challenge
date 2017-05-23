@@ -22,8 +22,8 @@ static NSString *const kContainerId = @"GTM-5W8QQ63";
 @property (nonatomic, retain) TAGContainer *container;
 
 - (void)refreshContainer;
-- (void)trackColorEvent:(NSString *)event;
 - (void)pushOpenWithScreen:(NSString *)screen;
+- (void)trackColorEvent:(NSString *)color fromSender:(NSString *)sender;
 - (void)trackPurchase:(Product *)product withQuantity:(NSUInteger)quantity;
 - (void)trackProductImpression:(Product *)product withList:(NSString *)list andPosition:(NSUInteger)position;
 
