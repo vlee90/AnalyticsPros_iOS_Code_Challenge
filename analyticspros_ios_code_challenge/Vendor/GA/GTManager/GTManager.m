@@ -49,6 +49,10 @@
     return instance;
 }
 
+- (void)refreshContainer {
+    [self.container refresh];
+}
+
 - (void)pushOpenWithScreen:(NSString *)screen {
     [_manager.dataLayer push:@{@"event": @"openScreen",
                                @"screenName" : screen}];
