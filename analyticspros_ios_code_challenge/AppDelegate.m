@@ -22,14 +22,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch
-    
-    [self loadGTManager];
-    
     NSURL *url = [launchOptions valueForKey:UIApplicationLaunchOptionsURLKey];
     if (url != nil) {
         [[[GTManager sharedInstance] manager] previewWithUrl:url];
     }
+    [self loadGTManager];
     
     return YES;
 }
