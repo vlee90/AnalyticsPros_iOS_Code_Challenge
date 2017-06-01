@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00B83B9B1EE07CC9003FF808 /* GTM-5W8QQ63 in Resources */ = {isa = PBXBuildFile; fileRef = 00B83B9A1EE07CC9003FF808 /* GTM-5W8QQ63 */; };
 		00F45DE21ED3F15100399061 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DE01ED3F15100399061 /* libGoogleAnalyticsServices.a */; };
 		00F45DE31ED3F15100399061 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DE11ED3F15100399061 /* libAdIdAccess.a */; };
 		00F45DEB1ED3F19A00399061 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DEA1ED3F19A00399061 /* CoreData.framework */; };
@@ -14,7 +15,6 @@
 		00F45DEF1ED3F1AD00399061 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DEE1ED3F1AD00399061 /* libz.tbd */; };
 		00F45DF11ED3F1B800399061 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DF01ED3F1B800399061 /* libsqlite3.tbd */; };
 		00F45DF51ED3F6C500399061 /* GTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F45DF41ED3F6C500399061 /* GTManager.m */; };
-		00F45E0D1ED4F67400399061 /* GTM-5W8QQ63 in Resources */ = {isa = PBXBuildFile; fileRef = 00F45E0C1ED4F67400399061 /* GTM-5W8QQ63 */; };
 		637F878A1E78A5DB0016615B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 637F87891E78A5DB0016615B /* main.m */; };
 		637F878D1E78A5DB0016615B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637F878C1E78A5DB0016615B /* AppDelegate.m */; };
 		637F87901E78A5DB0016615B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637F878F1E78A5DB0016615B /* ViewController.m */; };
@@ -25,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00B83B9A1EE07CC9003FF808 /* GTM-5W8QQ63 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTM-5W8QQ63"; sourceTree = "<group>"; };
 		00F45DE01ED3F15100399061 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		00F45DE11ED3F15100399061 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
 		00F45DE41ED3F16E00399061 /* TAGContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		00F45DF01ED3F1B800399061 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		00F45DF31ED3F6C500399061 /* GTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTManager.h; path = Vendor/GA/GTManager/GTManager.h; sourceTree = "<group>"; };
 		00F45DF41ED3F6C500399061 /* GTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTManager.m; path = Vendor/GA/GTManager/GTManager.m; sourceTree = "<group>"; };
-		00F45E0C1ED4F67400399061 /* GTM-5W8QQ63 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTM-5W8QQ63"; sourceTree = "<group>"; };
 		637F87851E78A5DB0016615B /* analyticspros_ios_code_challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = analyticspros_ios_code_challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		637F87891E78A5DB0016615B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		637F878B1E78A5DB0016615B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 		637F87881E78A5DB0016615B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00F45E0C1ED4F67400399061 /* GTM-5W8QQ63 */,
+				00B83B9A1EE07CC9003FF808 /* GTM-5W8QQ63 */,
 				637F87891E78A5DB0016615B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -231,8 +231,8 @@
 			files = (
 				637F87981E78A5DB0016615B /* LaunchScreen.storyboard in Resources */,
 				637F87951E78A5DB0016615B /* Assets.xcassets in Resources */,
-				00F45E0D1ED4F67400399061 /* GTM-5W8QQ63 in Resources */,
 				637F87931E78A5DB0016615B /* Main.storyboard in Resources */,
+				00B83B9B1EE07CC9003FF808 /* GTM-5W8QQ63 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
