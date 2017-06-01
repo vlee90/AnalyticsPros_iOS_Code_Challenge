@@ -66,18 +66,18 @@
 
 - (void)trackPurchase:(Product *)product withQuantity:(NSUInteger)quantity {
     NSDictionary *purchaseDict = @{
-                                   @"ecommerce" : @{
-                                       @"purchase" : @{
-                                           @"id" : [NSString stringWithFormat:@"T%@", product.sku],
-                                           @"revenue" : product.price},
-                                       @"products" : @[
-                                               @{@"name" : product.name,
-                                                 @"id" : product.sku,
-                                                 @"price" : product.price,
-                                                 @"brand" : product.brand,
-                                                 @"category" : product.category,
-                                                 @"variant" : product.variant,
-                                                 @"quantity" : @(quantity)}]}};
+                                   @"event" : @"transaction",
+                                   @"transactionId" : [NSString stringWithFormat:@"T%@", product.sku],
+                                   @"transactionTotal" : product.price,
+                                   @"transactionCurrency" : @"USD",
+                                   @"transactionProducts" : @[
+                                                              @{@"name" : product.name,
+                                                                @"id" : product.sku,
+                                                                @"price" : product.price,
+                                                                @"brand" : product.brand,
+                                                                @"category" : product.category,
+                                                                @"variant" : product.variant,
+                                                                @"quantity" : @(quantity)}]};
     
     [_manager.dataLayer push:purchaseDict];
 }
