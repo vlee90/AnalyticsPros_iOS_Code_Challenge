@@ -71,13 +71,14 @@
                                    @"transactionTotal" : product.price,
                                    @"transactionCurrency" : @"USD",
                                    @"transactionProducts" : @[
-                                                              @{@"name" : product.name,
-                                                                @"id" : product.sku,
-                                                                @"price" : product.price,
-                                                                @"brand" : product.brand,
-                                                                @"category" : product.category,
-                                                                @"variant" : product.variant,
-                                                                @"quantity" : @(quantity)}]};
+                                          @{@"name" : product.name,
+                                            @"id" : product.sku,
+                                            @"price" : product.price,
+                                            @"brand" : product.brand,
+                                            @"category" : product.category,
+                                            @"variant" : product.variant,
+                                            @"quantity" : @(quantity)}
+                                          ]};
     
     [_manager.dataLayer push:purchaseDict];
 }
