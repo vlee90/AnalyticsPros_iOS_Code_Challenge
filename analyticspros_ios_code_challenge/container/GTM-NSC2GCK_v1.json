@@ -1,0 +1,317 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2017-06-21 02:14:24",
+    "containerVersion": {
+        "path": "accounts/1434718008/containers/7079948/versions/1",
+        "accountId": "1434718008",
+        "containerId": "7079948",
+        "containerVersionId": "1",
+        "name": "1.0",
+        "container": {
+            "path": "accounts/1434718008/containers/7079948",
+            "accountId": "1434718008",
+            "containerId": "7079948",
+            "name": "gabe_firebase",
+            "publicId": "GTM-NSC2GCK",
+            "usageContext": [
+                "IOS_SDK_5"
+            ],
+            "fingerprint": "1498010175236",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/1434718008/containers/7079948/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "1434718008",
+                "containerId": "7079948",
+                "tagId": "2",
+                "name": "FavoriteColor",
+                "type": "fm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "mergeEventParameters",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "editParamTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "editParamKey",
+                                        "value": "appName"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "editParamValue",
+                                        "value": "{{App Name}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "editParamKey",
+                                        "value": "appVersion"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "editParamValue",
+                                        "value": "{{App Version Code}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "editParamKey",
+                                        "value": "screenName"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "editParamValue",
+                                        "value": "{{DLV - Screen Name}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "action",
+                        "value": "measure"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "favorite_color"
+                    }
+                ],
+                "fingerprint": "1498010175236",
+                "firingTriggerId": [
+                    "6"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "1434718008",
+                "containerId": "7079948",
+                "tagId": "1",
+                "name": "ScreenView",
+                "type": "fm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "mergeEventParameters",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "editParamTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "editParamKey",
+                                        "value": "appName"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "editParamValue",
+                                        "value": "{{App Name}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "editParamKey",
+                                        "value": "appVersion"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "editParamValue",
+                                        "value": "{{App Version Code}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "editParamKey",
+                                        "value": "screenName"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "editParamValue",
+                                        "value": "{{DLV - Screen Name}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "action",
+                        "value": "measure"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "detail_screen"
+                    }
+                ],
+                "fingerprint": "1498010194342",
+                "firingTriggerId": [
+                    "5"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "1434718008",
+                "containerId": "7079948",
+                "triggerId": "6",
+                "name": "Event - Favorite Color",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "favorite_color"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1498009763790"
+            },
+            {
+                "accountId": "1434718008",
+                "containerId": "7079948",
+                "triggerId": "5",
+                "name": "Event - Screen View",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "openScreen"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1498009774404"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "1434718008",
+                "containerId": "7079948",
+                "variableId": "1",
+                "name": "DLV - Screen Name",
+                "type": "md",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventType",
+                        "value": "CUSTOM"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "key",
+                        "value": "detail_screen"
+                    }
+                ],
+                "fingerprint": "1498009553802"
+            },
+            {
+                "accountId": "1434718008",
+                "containerId": "7079948",
+                "variableId": "2",
+                "name": "DLV-FavoriteColor",
+                "type": "md",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventType",
+                        "value": "CUSTOM"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "key",
+                        "value": "favorite_color"
+                    }
+                ],
+                "fingerprint": "1498009623697"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "1434718008",
+                "containerId": "7079948",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            },
+            {
+                "accountId": "1434718008",
+                "containerId": "7079948",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "1434718008",
+                "containerId": "7079948",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "1434718008",
+                "containerId": "7079948",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            }
+        ],
+        "fingerprint": "1498010231006",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/1434718008/containers/7079948/versions/1?apiLink=version"
+    }
+}
