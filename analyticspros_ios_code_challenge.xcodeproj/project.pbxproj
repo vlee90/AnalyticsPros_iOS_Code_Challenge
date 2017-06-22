@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00B83B9B1EE07CC9003FF808 /* GTM-5W8QQ63 in Resources */ = {isa = PBXBuildFile; fileRef = 00B83B9A1EE07CC9003FF808 /* GTM-5W8QQ63 */; };
-		00F45DE21ED3F15100399061 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DE01ED3F15100399061 /* libGoogleAnalyticsServices.a */; };
-		00F45DE31ED3F15100399061 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DE11ED3F15100399061 /* libAdIdAccess.a */; };
+		00D3BD9C1EF9FDA10093DDD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00D3BD9B1EF9FDA10093DDD6 /* GoogleService-Info.plist */; };
+		00D3BDB51EFA111E0093DDD6 /* container in Resources */ = {isa = PBXBuildFile; fileRef = 00D3BDB41EFA111E0093DDD6 /* container */; };
 		00F45DEB1ED3F19A00399061 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DEA1ED3F19A00399061 /* CoreData.framework */; };
 		00F45DED1ED3F1A000399061 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DEC1ED3F1A000399061 /* SystemConfiguration.framework */; };
 		00F45DEF1ED3F1AD00399061 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DEE1ED3F1AD00399061 /* libz.tbd */; };
 		00F45DF11ED3F1B800399061 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F45DF01ED3F1B800399061 /* libsqlite3.tbd */; };
-		00F45DF51ED3F6C500399061 /* GTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F45DF41ED3F6C500399061 /* GTManager.m */; };
+		00F45DF51ED3F6C500399061 /* AProsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F45DF41ED3F6C500399061 /* AProsManager.m */; };
+		5ED068BFF5ACDE62C1934131 /* libPods-analyticspros_ios_code_challenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9CE109998BA43D28B9F902 /* libPods-analyticspros_ios_code_challenge.a */; };
 		637F878A1E78A5DB0016615B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 637F87891E78A5DB0016615B /* main.m */; };
 		637F878D1E78A5DB0016615B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637F878C1E78A5DB0016615B /* AppDelegate.m */; };
 		637F87901E78A5DB0016615B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637F878F1E78A5DB0016615B /* ViewController.m */; };
@@ -25,20 +25,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00B83B9A1EE07CC9003FF808 /* GTM-5W8QQ63 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTM-5W8QQ63"; sourceTree = "<group>"; };
-		00F45DE01ED3F15100399061 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
-		00F45DE11ED3F15100399061 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
-		00F45DE41ED3F16E00399061 /* TAGContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
-		00F45DE51ED3F16E00399061 /* TAGContainerOpener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
-		00F45DE61ED3F16E00399061 /* TAGDataLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
-		00F45DE71ED3F16E00399061 /* TAGLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGLogger.h; sourceTree = "<group>"; };
-		00F45DE81ED3F16E00399061 /* TAGManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
+		00D3BD9B1EF9FDA10093DDD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00D3BDB41EFA111E0093DDD6 /* container */ = {isa = PBXFileReference; lastKnownFileType = folder; path = container; sourceTree = "<group>"; };
 		00F45DEA1ED3F19A00399061 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		00F45DEC1ED3F1A000399061 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		00F45DEE1ED3F1AD00399061 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		00F45DF01ED3F1B800399061 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		00F45DF31ED3F6C500399061 /* GTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTManager.h; path = Vendor/GA/GTManager/GTManager.h; sourceTree = "<group>"; };
-		00F45DF41ED3F6C500399061 /* GTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTManager.m; path = Vendor/GA/GTManager/GTManager.m; sourceTree = "<group>"; };
+		00F45DF31ED3F6C500399061 /* AProsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AProsManager.h; path = Vendor/GA/GTManager/AProsManager.h; sourceTree = "<group>"; };
+		00F45DF41ED3F6C500399061 /* AProsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AProsManager.m; path = Vendor/GA/GTManager/AProsManager.m; sourceTree = "<group>"; };
+		3B096781946B0809BB6B0DA0 /* Pods-analyticspros_ios_code_challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-analyticspros_ios_code_challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-analyticspros_ios_code_challenge/Pods-analyticspros_ios_code_challenge.release.xcconfig"; sourceTree = "<group>"; };
+		4B9CE109998BA43D28B9F902 /* libPods-analyticspros_ios_code_challenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-analyticspros_ios_code_challenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		637F87851E78A5DB0016615B /* analyticspros_ios_code_challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = analyticspros_ios_code_challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		637F87891E78A5DB0016615B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		637F878B1E78A5DB0016615B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +47,7 @@
 		637F87991E78A5DB0016615B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		637F879F1E78AE5F0016615B /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		637F87A01E78AE5F0016615B /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		D0C772817DF6C46252503C8C /* Pods-analyticspros_ios_code_challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-analyticspros_ios_code_challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-analyticspros_ios_code_challenge/Pods-analyticspros_ios_code_challenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +59,7 @@
 				00F45DEF1ED3F1AD00399061 /* libz.tbd in Frameworks */,
 				00F45DED1ED3F1A000399061 /* SystemConfiguration.framework in Frameworks */,
 				00F45DEB1ED3F19A00399061 /* CoreData.framework in Frameworks */,
-				00F45DE21ED3F15100399061 /* libGoogleAnalyticsServices.a in Frameworks */,
-				00F45DE31ED3F15100399061 /* libAdIdAccess.a in Frameworks */,
+				5ED068BFF5ACDE62C1934131 /* libPods-analyticspros_ios_code_challenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,29 +69,15 @@
 		00F45DDD1ED3F11D00399061 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				00D3BD9B1EF9FDA10093DDD6 /* GoogleService-Info.plist */,
 				00F45DF61ED3F90000399061 /* GTM */,
-				00F45DDE1ED3F12800399061 /* GA */,
 			);
 			name = Vendor;
-			sourceTree = "<group>";
-		};
-		00F45DDE1ED3F12800399061 /* GA */ = {
-			isa = PBXGroup;
-			children = (
-				00F45DE41ED3F16E00399061 /* TAGContainer.h */,
-				00F45DE51ED3F16E00399061 /* TAGContainerOpener.h */,
-				00F45DE61ED3F16E00399061 /* TAGDataLayer.h */,
-				00F45DE71ED3F16E00399061 /* TAGLogger.h */,
-				00F45DE81ED3F16E00399061 /* TAGManager.h */,
-			);
-			name = GA;
 			sourceTree = "<group>";
 		};
 		00F45DDF1ED3F14500399061 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				00F45DE01ED3F15100399061 /* libGoogleAnalyticsServices.a */,
-				00F45DE11ED3F15100399061 /* libAdIdAccess.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,6 +89,7 @@
 				00F45DEE1ED3F1AD00399061 /* libz.tbd */,
 				00F45DEC1ED3F1A000399061 /* SystemConfiguration.framework */,
 				00F45DEA1ED3F19A00399061 /* CoreData.framework */,
+				4B9CE109998BA43D28B9F902 /* libPods-analyticspros_ios_code_challenge.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,10 +97,19 @@
 		00F45DF61ED3F90000399061 /* GTM */ = {
 			isa = PBXGroup;
 			children = (
-				00F45DF31ED3F6C500399061 /* GTManager.h */,
-				00F45DF41ED3F6C500399061 /* GTManager.m */,
+				00F45DF31ED3F6C500399061 /* AProsManager.h */,
+				00F45DF41ED3F6C500399061 /* AProsManager.m */,
 			);
 			name = GTM;
+			sourceTree = "<group>";
+		};
+		01C95814D035CE3421A8F97C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0C772817DF6C46252503C8C /* Pods-analyticspros_ios_code_challenge.debug.xcconfig */,
+				3B096781946B0809BB6B0DA0 /* Pods-analyticspros_ios_code_challenge.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		637F877C1E78A5DB0016615B = {
@@ -126,6 +118,7 @@
 				637F87871E78A5DB0016615B /* analyticspros_ios_code_challenge */,
 				637F87861E78A5DB0016615B /* Products */,
 				00F45DE91ED3F19900399061 /* Frameworks */,
+				01C95814D035CE3421A8F97C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +133,7 @@
 		637F87871E78A5DB0016615B /* analyticspros_ios_code_challenge */ = {
 			isa = PBXGroup;
 			children = (
+				00D3BDB41EFA111E0093DDD6 /* container */,
 				00F45DDF1ED3F14500399061 /* Frameworks */,
 				00F45DDD1ED3F11D00399061 /* Vendor */,
 				637F878B1E78A5DB0016615B /* AppDelegate.h */,
@@ -160,7 +154,6 @@
 		637F87881E78A5DB0016615B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00B83B9A1EE07CC9003FF808 /* GTM-5W8QQ63 */,
 				637F87891E78A5DB0016615B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -173,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 637F879C1E78A5DB0016615B /* Build configuration list for PBXNativeTarget "analyticspros_ios_code_challenge" */;
 			buildPhases = (
+				3560E13259FFF5CFB57A24BE /* [CP] Check Pods Manifest.lock */,
 				637F87811E78A5DB0016615B /* Sources */,
 				637F87821E78A5DB0016615B /* Frameworks */,
 				637F87831E78A5DB0016615B /* Resources */,
+				AD528134F9B6D6AC0FD035CD /* [CP] Embed Pods Frameworks */,
+				8F28C3076B31763686018EE7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,13 +226,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				637F87981E78A5DB0016615B /* LaunchScreen.storyboard in Resources */,
+				00D3BD9C1EF9FDA10093DDD6 /* GoogleService-Info.plist in Resources */,
+				00D3BDB51EFA111E0093DDD6 /* container in Resources */,
 				637F87951E78A5DB0016615B /* Assets.xcassets in Resources */,
 				637F87931E78A5DB0016615B /* Main.storyboard in Resources */,
-				00B83B9B1EE07CC9003FF808 /* GTM-5W8QQ63 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3560E13259FFF5CFB57A24BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F28C3076B31763686018EE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-analyticspros_ios_code_challenge/Pods-analyticspros_ios_code_challenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD528134F9B6D6AC0FD035CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-analyticspros_ios_code_challenge/Pods-analyticspros_ios_code_challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		637F87811E78A5DB0016615B /* Sources */ = {
@@ -244,7 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				637F87901E78A5DB0016615B /* ViewController.m in Sources */,
-				00F45DF51ED3F6C500399061 /* GTManager.m in Sources */,
+				00F45DF51ED3F6C500399061 /* AProsManager.m in Sources */,
 				637F87A11E78AE5F0016615B /* Product.m in Sources */,
 				637F878D1E78A5DB0016615B /* AppDelegate.m in Sources */,
 				637F878A1E78A5DB0016615B /* main.m in Sources */,
@@ -365,6 +410,7 @@
 		};
 		637F879D1E78A5DB0016615B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C772817DF6C46252503C8C /* Pods-analyticspros_ios_code_challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -389,6 +435,7 @@
 		};
 		637F879E1E78A5DB0016615B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B096781946B0809BB6B0DA0 /* Pods-analyticspros_ios_code_challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";

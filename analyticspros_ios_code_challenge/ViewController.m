@@ -8,7 +8,8 @@
 
 #import "ViewController.h"
 #import "Product.h"
-#import "GTManager.h"
+#import "AProsManager.h"
+@import Firebase;
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *favoriteColorTextField;
@@ -30,23 +31,23 @@
                                          withBrand:@"analytics_pros"
                                       withCategory:@"fruit"
                                        withVariant:@"honeycrisp"];
-    [[GTManager sharedInstance] trackProductImpression:self.product withList:@"Front Page" andPosition:1];
+    //TODO
 }
 
 -(void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    [[GTManager sharedInstance] pushOpenWithScreen:@"detail_screen"];
+    [AProsManager trackScreenWithName:NSStringFromClass([self class])];
 }
 
 - (IBAction)submitColorButtonPressed:(id)sender {
     NSString *favoriteColor = [NSString stringWithFormat:@"%@", _favoriteColorTextField.text];
     if (favoriteColor && ![favoriteColor isEqual:[NSNull null]]) {
-        [[GTManager sharedInstance] trackColorEvent:favoriteColor fromSender:@"detail_screen"];
+        [AProsManager logColorEvent:favoriteColor fromSender:sender];
     }
 }
 
 - (IBAction)buyAppleButtonPressed:(id)sender {
-    [[GTManager sharedInstance] trackPurchase:self.product withQuantity:1];
+    // TODO
 }
 
 @end

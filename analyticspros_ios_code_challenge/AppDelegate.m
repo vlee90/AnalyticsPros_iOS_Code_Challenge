@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "TAGContainerOpener.h"
-#import "GTManager.h"
+#import "AProsManager.h"
 
 @interface AppDelegate ()
 
@@ -22,12 +21,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSURL *url = [launchOptions valueForKey:UIApplicationLaunchOptionsURLKey];
-    if (url != nil) {
-        [[[GTManager sharedInstance] manager] previewWithUrl:url];
-    }
-    [self loadGTManager];
-    
+    [AProsManager bootstrap];
     return YES;
 }
 
@@ -57,29 +51,4 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
-
-#pragma mark - Google Tag Manager
-- (void)loadGTManager {
-    NSDictionary *appDefaults = @{kAllowTracking: @(YES)};
-    [[NSUserDefaults standardUserDefaults] registerDefaults:appDefaults];
-    [GTManager sharedInstance];
-}
-
--(void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
-{
-    completionHandler(UIBackgroundFetchResultNewData);
-}
-
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-    
-    if ([[[GTManager sharedInstance] manager] previewWithUrl:url]) {
-        return YES;
-    }
-    
-    // Code to handle other urls.
-    
-    return NO;
-}
-
 @end
