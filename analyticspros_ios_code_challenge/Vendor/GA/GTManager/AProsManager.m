@@ -42,7 +42,8 @@ typedef NS_ENUM(NSInteger, APTrackable) {
 }
 
 + (void)trackScreenWithName:(NSString *)name {
-    [FIRAnalytics setScreenName:[AProsManager trackable:APTrackableDetailScreen] screenClass:name];
+    [FIRAnalytics logEventWithName:[AProsManager trackable:APTrackableScreenName]
+                        parameters:@{[AProsManager trackable:APTrackableSenderName] : NSStringFromClass([name class])}];
 }
 
 + (void)trackCurrentScreenEvent:(NSString *)screen {
